@@ -1,5 +1,5 @@
 site_name: "User Guide"
-
+docs_dir: docs
 nav:
   - Overview: index.md
 
