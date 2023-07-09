@@ -28,10 +28,10 @@ metadata:
   name: api1
 spec:
   type: openapi
-  owner: Component: service1
+  owner: Component:service1
   lifecycle: production
   system: OCS
- definition: |
+definition: |
    syntax = "proto3";
 
     service Exampler {
