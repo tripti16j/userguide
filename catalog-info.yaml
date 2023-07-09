@@ -32,14 +32,14 @@ spec:
     Component: service1
   lifecycle: production
   system: OCS
-definition: |
-   syntax = "proto3";
-
-   service Exampler {
-      rpc Example (ExampleMessage) returns (ExampleMessage) {};
-    }
-
-   message ExampleMessage {
-      string example = 1;
-    };
+  definition: |
+     syntax = "proto3";
+  
+     service Exampler {
+        rpc Example (ExampleMessage) returns (ExampleMessage) {};
+      }
+  
+     message ExampleMessage {
+        string example = 1;
+      };
 ---
