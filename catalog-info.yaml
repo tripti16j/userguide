@@ -15,12 +15,6 @@ spec:
   system: OCS
   providesApis:
     - api1
-  #   - api2
-  # consumesApis:
-  #   - api3
-  # dependsOn:
-  #   - resource:db1
-  #   - component:componnet1
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -34,12 +28,5 @@ spec:
   system: OCS
   definition: |
      syntax = "proto3";
-  
-     service Exampler {
-        rpc Example (ExampleMessage) returns (ExampleMessage) {};
-      }
-  
-     message ExampleMessage {
-        string example = 1;
-      };
+
 ---
