@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -40,3 +41,4 @@ spec:
     message ExampleMessage {
       string example = 1;
     };
+---
