@@ -22,7 +22,7 @@ metadata:
   name: api1
 spec:
   type: openapi
-  owner: Component:service1
+  owner: group:credit
   lifecycle: production
   system: OCS
   definition: |
