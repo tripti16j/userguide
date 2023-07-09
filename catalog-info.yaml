@@ -23,7 +23,7 @@ spec:
   #   - component:componnet1
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Api
+kind: API
 metadata:
   name: api1
 spec:
